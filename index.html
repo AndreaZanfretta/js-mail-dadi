@@ -10,40 +10,34 @@
 </head>
 <body>
     <section id="login">
-        <form class="row g-3">
+        <form  class="row g-3">
             <div class="col-auto">
                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Inserisci la mail" value="">
                 <div id="emailHelp" class="form-text">Inserisci una mail valida!</div>
             </div>
             <div class="col-auto">
-              <button id="submit" type="submit" class="btn btn-primary mb-3">Login</button>
+              <button id="submit" type="button" class="btn btn-primary mb-3">Login</button>
             </div>
           </form>
     </section>
     <section id="Gioco">
         <div class="row">
-            <div class="col">
+            <div id="userlabel" class="col visibility">
                 <p>Dado Giocatore:</p>
             </div>
-            <div class="col">
+            <div id="computerlabel" class="col visibility">
                 <p>Dado Computer:</p>
             </div>
         </div>
         <div class="row">
-            <div class="col">
-                <div class="dice">
-                    <p>6</p>
-                </div>
+            <div id="user" class="col">
             </div>
-            <div class="col">
-                <div class="dice">
-                    <p>6</p>
-                </div>
+            <div id="computer" class="col">
             </div>
         </div>
         <div class="row">
-            <div class="col">
-                <h1>Ha vinto Giocatore</h1>
+            <div id="result" class="col">
+                <!-- <h1>Ha vinto Giocatore</h1> -->
             </div>
         </div>
     </section>
